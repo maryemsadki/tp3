@@ -1,0 +1,125 @@
+img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+  }
+ body{
+    background: linear-gradient(45deg, lavender ,gray );
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 15vh;
+    text-shadow: 0px, 3px ,coral;
+
+}
+header h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+nav{
+    background-color: rgba(168, 131, 21, 0.5);
+    border-radius: 15px 15px 0px 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+nav ul {
+    display: inline;
+  }
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    list-style: none;
+
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+nav ul li a:visited {
+    color: black;
+  }
+  main, div {
+    display: flex;
+  }
+
+
+aside{
+    width: 20%;
+    height: 20vh;
+    overflow: scroll;
+    background-color: white;
+    border: solid coral;
+    border-radius: 0px 0px 15px 15px;
+}
+section{
+    background-color: white;
+    width: 80%;
+    border: solid coral;
+    border-radius: 15px 0px 15px 15px;
+    margin-right: 1%;
+}
+footer{
+    margin-top: 3vh;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+article,p{
+    padding: 2%;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+nav {
+    position: fixed;
+    top: 10%;
+  }
+ic{
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+}
+
+
+
+
+.l{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.lien{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+
+}
+.lien:hover{
+    color: #000;
+    
+}
+.lien:visited{
+    color: rgba(231,36,36);
+}
+footer,h3{
+    background-color: coral;
+    padding-left: 5px;
+}
+main{
+    display:flex;
+}
+section{
+    background-color: white;
+    width: 80%;
+    border: solid coral;
+    border-radius: 15px 0px 15px 15px;
+    margin-right: 1%;
+}
+
+
